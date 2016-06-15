@@ -1,0 +1,11 @@
+"use strict";
+
+var appRouter = function appRouter(app) {
+  // load home page
+  app.get('/', function (req, res) {
+    res.send("Hello World");
+  });
+};
+
+module.exports = appRouter;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9yb3V0ZXMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFFQSxJQUFNLFlBQVksU0FBWixTQUFZLENBQUMsR0FBRCxFQUFpQjs7QUFFakMsTUFBSSxHQUFKLENBQVEsR0FBUixFQUFhLFVBQUMsR0FBRCxFQUFNLEdBQU4sRUFBYztBQUN6QixRQUFJLElBQUosQ0FBUyxhQUFUO0FBQ0QsR0FGRDtBQUdELENBTEQ7O0FBT0EsT0FBTyxPQUFQLEdBQWlCLFNBQWpCIiwiZmlsZSI6InJvdXRlcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIEBmbG93XG5cbmNvbnN0IGFwcFJvdXRlciA9IChhcHA6IE9iamVjdCkgPT4ge1xuICAvLyBsb2FkIGhvbWUgcGFnZVxuICBhcHAuZ2V0KCcvJywgKHJlcSwgcmVzKSA9PiB7XG4gICAgcmVzLnNlbmQoXCJIZWxsbyBXb3JsZFwiKTtcbiAgfSk7XG59O1xuXG5tb2R1bGUuZXhwb3J0cyA9IGFwcFJvdXRlcjtcbiJdfQ==
